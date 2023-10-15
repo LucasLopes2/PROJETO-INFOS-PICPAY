@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área de Login</title>
+    <link rel="shortcut icon" href="imagens/transferir.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="estilos/landscape.css" media="screen and (orientation: landscape)">
+</head>
+<body>
+    <main>
+        <h1>Vem para o PicPay e <br> dê mais pique pro seu dinheiro</h1>
+        
+        <form action="" autocomplete="off">
+            <div class="log">
+                <label for="usuario">Seu nome de Usuário:</label>
+                <input type="text" name="usu" id="usuario">
+            </div>
+
+            <div class="senha">
+                <label for="senha">Digite uma Senha:</label>
+                <input type="password" name="sen" id="senha" minlength="0"
+                maxlength="25" placeholder="Máximo de 25">
+
+            </div>
+            <div class="sen">
+                <label for="repet">Digite a senha novamente:</label>
+                <input type="password" name="senha" id="senha" placeholder="Máximo de 25">
+            </div>
+            <p class="conf"><input type="submit" value="Confirmar"></p>
+
+            <div class="logado">
+                <p>Já é Cadastrado faça seu Login abaixo</p>
+                <input type="submit" value="Login">
+            </div>
+        </form>
+    </main>
+</body>
+</html>

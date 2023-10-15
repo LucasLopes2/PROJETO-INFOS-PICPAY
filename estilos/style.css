@@ -1,0 +1,85 @@
+@charset "utf-8";
+/*ESTILO PARA LOGIN , TELA EM PÉ*/
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #154b37, #15b47a);
+}
+h1{
+    color: rgba(250, 235, 215, 0.849);
+    font-family: 'Dancing Script', cursive;;
+    text-align: center;
+    font-size: 3.4em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397)
+}
+main{
+    display: ;
+    padding: 15px;
+}
+.log{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.log input{
+    display: block;
+    margin: auto;
+    padding: 2px;
+    color: black;
+    background-color: darkgrey;
+}
+.senha{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.senha input{
+    display: block;
+    margin: auto;
+    padding: 2px;
+    color: black;
+    background-color: darkgrey;
+}
+.sen{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.sen input{
+    display: block;
+    margin: auto;
+    color: black;
+    background-color: darkgrey
+}
+.conf{
+    text-align: center;
+    padding: 20px;
+}
+.conf input{
+    padding: 15px;
+    width: 50%;
+    font-size: 1.3em;
+}
+.conf input:hover{
+    background-color: #15b47a;
+}
+.logado{
+    text-align: center;
+    padding: 10px;
+}
+.logado p{
+    font-size: 1.3em;
+    margin: 10px;
+}
+.logado input{
+    padding: 10px;
+    width: 20%;
+    font-size: 1.3em;
+}
+.logado input:hover{
+    background-color: #15b47a;
+}
