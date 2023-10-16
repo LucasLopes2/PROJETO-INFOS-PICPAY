@@ -1,0 +1,86 @@
+@charset "utf-8";
+/*TELA DEITADA*/
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    
+    width: 90vw;
+    padding: 30px;
+    background-image: linear-gradient(to right, #23d464, #147538); 
+}
+main{
+    background-color:white ;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.603);
+}
+h1{
+    color: #1a9748;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
+    
+}
+h2{
+    color: #043b18e7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.329);
+}
+#login{
+    
+    font-weight:bold;
+    color: black;
+    
+}
+.logi input{
+   padding: 5px;
+    
+}
+#se{
+    position: relative;
+    margin: 10px;
+    font-weight:bold;
+    color: black;
+    left: 3px;
+}
+.senhas input{
+    padding: 5px;
+    
+}
+.trocar a{
+    padding: 10px;
+   text-decoration: none;
+    color: black;
+}
+.trocar a:hover{
+    text-decoration: underline;
+    color: #23d464;
+}
+.entre{
+    padding: 15px;
+}
+.entre input{
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    font-size: 1.3em;
+}
+.entre input:hover{
+    background-color: #147538;
+}
+img{
+    position:relative;
+    right: 45%;
+    bottom: 50px;
+}
