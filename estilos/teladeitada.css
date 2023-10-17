@@ -1,0 +1,123 @@
+@charset "utf-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
+}
+h2{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
+}
+body{
+    
+    background-color:#CBCEC1 ;
+
+}
+main{
+    border-radius: 10px;
+    background-color:white ;
+    text-align: center;
+}
+.conteudo{
+    background-color: #252525;
+    color: white;
+    padding: 50px;
+    
+}
+.conteudo p{
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+.conteudo h1{
+    padding-bottom: 30px;
+    font-size: 2em;
+}
+.hist{
+    background-color: #238662;
+    color: white;
+    padding: 60px;
+}
+.hist h2{
+    font-size: 2em;
+    padding-bottom: 30px ;
+}
+.hist p{
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+.servicos{
+    text-align: justify;
+    color:black;
+    padding: 50px;
+}
+.servicos h2{
+    font-size: 2em;
+    padding-bottom: 30px;
+}
+.servicos li{
+    line-height: 1.4em;
+    font-size: 1.1em;
+    font-style: normal;
+    font-weight: bolder;
+}
+.popular{
+    background-color: #238662;
+    padding: 50px;
+}
+.popular h2{
+    font-size: 2em;
+    padding-bottom: 30px;
+}
+.popular p{
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+.criador {
+    background-color: darkgray;
+    padding: 60px;
+}
+.criador h2{
+    font-size: 2em;
+    padding-bottom: 30px;
+}
+.criador p{
+    line-height: 1.4em;
+    font-size: 1.1em;
+}
+.image h2{
+    padding: 20px;
+    font-size: 1.9em;
+
+}
+.infos{
+    background-color: #252525;
+    color: white;
+    padding: 50px;
+}
+.infos p{
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+.infos h2{
+    padding-bottom: 30px;
+    font-size: 2em;
+}
+footer{
+   width: 100%;
+    background-color: #2525254d;
+}
+footer a{
+   color: black;
+   padding-left: 10px;
+   text-align: center;
+   text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: #238662;
+}
+.fts {
+    text-align: center;
+}
